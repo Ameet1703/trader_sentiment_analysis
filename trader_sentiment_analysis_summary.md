@@ -28,7 +28,7 @@ Our analytical pipeline was built to process high-frequency transaction records 
 
 Platform risk architectures should abandon generic one-size-fits-all restrictions and instead deploy dynamic, sentiment-aware, and segment-specific guardrails:
 
- **Recommendation 1: Regime-Filtered Sizing Ceilings for Institutional Whales**
+**Recommendation 1: Regime-Filtered Sizing Ceilings for Institutional Whales**
 * *Heuristic:* Automatically enforce a **40% maximum position-size margin cap** for **Cluster 2 (Whales)** whenever the daily market sentiment index reads **Fear** or **Extreme Fear**.
 * *Justification:* The data proves that position sizes organically swell to an inflated peak of $9,180.26 during Fear regimes as macro swing traders aggressively average down into losing positions. Automatically tightening size limits mitigates cascading counterparty liquidation risks and protects platform liquidity.
 
